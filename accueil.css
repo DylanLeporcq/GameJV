@@ -1,0 +1,199 @@
+/* Title of games and timers */
+span {
+    padding-top: 15px;
+    padding-bottom: 19px;
+}
+
+.title2line{
+    padding-top: 4px;
+    padding-bottom: 9px;
+    max-width: 220px;
+}
+
+/* Big title of eache line */
+h2{
+    font-size: 16pt;
+    letter-spacing: 7px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    font-weight: initial;
+    margin-top: 25px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+/* Color of the intro bar, different on each page*/
+#intro {
+    background: rgba(27, 64, 96, 0.86);
+    background-size: 545px;
+    background-position-x: 372px;
+    background-position-y: 153px;
+}
+
+.h2 {
+    margin-bottom: 80px;
+}
+/* All line graphic (title, images, descriptions, ...). (Total : 11) */
+.line {
+    border : 2px solid rgba(176, 34, 34, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(39, 39, 39, 0.83);
+    color: white;
+}
+
+/* All images line of each cathegorie. (Total : 4) */
+.pic {
+    height: 170px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+/* Title of each line (last games, last news ...). (Total : 4)*/
+.title{
+    margin-top: 40px;
+}
+
+
+/* Contain all informations about ONE game. (Total : 5)*/
+.bloc {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+
+/* Presentation header (different on each page) */
+.accueil{
+    background: #36c3bf;
+    color: white;
+    font-weight: bold;
+}
+
+/* Bloc : contain game image. (Total : 20)*/
+.case {
+    width: 220px;
+    height: 150px;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+}
+
+/* Countdown style*/
+.count, .date{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-align: center;
+    color: white;
+    font-family: "Gill Sans MT";
+    border-top: 1px solid white;
+}
+
+
+/* 1st Game Image SOON*/
+.c1 {
+    background-image: url("https://media3.nin-nin-game.com/101005-pos_large/ryu-ga-gotoku-7-yakuza-7-standard-edition-ps4-.jpg");
+}
+
+/* 2nd Game Image SOON*/
+.c2 {
+    background-image: url("https://img.sanctuary.fr/thumbs_news_fb/34092.jpg");
+}
+
+/* 3rd Game Image SOON*/
+.c3 {
+    background-image: url("https://hb.imgix.net/b44830701c890a2198dbb7c5eee4ebb30a5a2dc0.jpeg?auto=compress,format&fit=crop&h=353&w=616&s=74f2b575a5249053b83e94f19baa6475");
+}
+
+/* 4th Game Image SOON*/
+.c4 {
+    background-image: url("https://zoneasoluces.fr/wp-content/uploads/2019/10/solution-pour-Moons-of-Madness-a.jpg");
+}
+
+/* 5th Game Image SOON*/
+.c5 {
+    background-image: url("https://media.begeek.fr/2018/09/Final-Fantasy-Crystal-Chronicles-Remastered-Edition-PS4-Switch.jpg");
+}
+/* Filter on the consoles logos (if non available) */
+.switch2, .xbox2, .pc2, .ps2{
+    filter: grayscale(1) opacity(0.2);
+}
+/* Consoles logo bloc */
+.consoles {
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding-top: 4px;
+    border: 2px solid rgba(255, 255, 255, 0.31);
+    background: rgba(0, 0, 0, 0.35);
+}
+
+/* 1st Game Image LAST*/
+.c11 {
+    background-image: url("https://assets1.ignimgs.com/2019/11/07/ao-tennis-2---button-001-1573169783995.jpg");
+}
+/* 2nd Game Image LAST*/
+.c12 {
+    background-image: url("https://d3tg06jbotvai2.cloudfront.net/game_tetiere/upload/gameimage/file/1964-wattam.png");
+}
+/* 3rd Game Image LAST*/
+.c13 {
+    background-image: url("http://bordeldenerds.fr/wp-content/uploads/2018/06/detroit.jpg");
+}
+/* 4th Game Image LAST*/
+.c14 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqYwPZxMqE9EI9-WvjvL9b3vhSLLQn8l8c8H-8wJDKZe-pNbPK&s");
+}
+/* 5th Game Image LAST*/
+.c15 {
+    background-image: url("https://static.dlgamer.com/assets/543/61/anims/transport_fever_2_big_card.jpg");
+}
+
+
+.new {
+    padding-top: 2px;
+    padding-bottom: 11px;
+    font-size: 12pt;
+    max-width: 220px;
+}
+
+.new2line {
+    margin-top: 22px;
+}
+
+.c6 {
+    background-image: url("https://www.nintendo-master.com/fichiers/news_covers/pokemon-epee-pokemon-bouclier-devoilent-leur-pass-dextension-55032-9765.jpg");
+}
+.c7 {
+    background-image: url("https://cdn03.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_PokemonMysteryDungeonDX_FR_image1600w.jpg");
+}
+.c8{
+    background-image: url("https://www.presse-citron.net/wordpress_prod/wp-content/uploads/2020/01/logo-officiel-ps5.jpg");
+}
+.c9{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-GLtRlPAP0ajKAeOJF13RmZU_pYiOlh3L9e8jc0H9o6fPsOzEbA&s");
+}
+.c10 {
+    background-image: url("https://cdn.gamer-network.net/2019/usgamer/resident_evil_4.jpg/EG11/thumbnail/1920x1080/format/jpg/quality/65/resident-evil-4-runs-better-in-handheld-mode-than-docked-digital-foundry-reports.jpg");
+}
+
+.didUknow {
+    background: rgba(0, 0, 0, 0.82);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    border-top-right-radius: 18px;
+    width: 100%;
+    font-weight: bold;
+    justify-content: center;
+    letter-spacing: 3px;
+    font-size: 14pt;
+}
+
+#forp{
+    font-size: 9pt;
+}

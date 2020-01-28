@@ -1,0 +1,133 @@
+*{
+    color: white;
+    font-family: "Century Gothic";
+}
+
+.games{
+    background: #ee120e;
+    color: white;
+    font-weight: bold;
+}
+
+.accueil {
+    background: #1b4060;
+    color: white;
+}
+
+#body {
+    background: rgba(39, 39, 39, 0.83);
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.line {
+    border: 2px solid white;
+    margin: 2px;
+}
+
+.DT1 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.detail_game {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+    background: #212121;
+    width: 72%;
+
+}
+
+.details {
+    padding: 20px;
+}
+.name_game {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 40pt;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-right: none;
+    border-left: none;
+}
+
+.cover_game {
+    height: 280px;
+    width: 220px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid white;
+}
+.title_DT {
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+.DT2 {
+    border: 2px solid white;
+    font-family: "Gill Sans MT";
+    margin-right: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 50px;
+    background: #2b6046;
+    font-size: 20pt;
+    font-weight: bold;
+    cursor: pointer;
+}
+.medal {
+;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 160px;
+    width: 120px;
+    border: none;
+}
+
+.center {
+    display: flex;
+    flex-direction: row;
+    border: none;
+}
+
+.describe {
+    width: 72%;
+    margin-bottom: 20px;
+    text-align: center;
+    background: #212121;
+}
+
+.title_describe {
+    font-size: 20pt;
+    text-align: center;
+}
+
+.detail_title {
+    border: 2px solid white;
+    width: 72%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background: #212121;
+}
+
+.rate_game{
+    background: #1d1d1d;
+    width: 23%;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.text{
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
+}

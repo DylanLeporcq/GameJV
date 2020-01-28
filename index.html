@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Game Light - Accueil</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="accueil.css">
+    <link href="https://fonts.googleapis.com/css?family=Bungee&display=swap" rel="stylesheet">
+</head>
+<style>a {text-decoration: none ; color: white}</style>
+<body>
+<div class="user_bar">
+    <span class="user_option">
+        <div class="search_logo"><img class="loupe" height="30px" src="https://img.icons8.com/ios-filled/48/000000/search.png"></div>
+        <input type="search" placeholder="Tapez votre recherche ..." class="search_bar">
+    </span>
+    <span class="user_option">
+        <div class="login">Se connecter</div>
+        <div class="subscribe">S'inscrire</div>
+    </span>
+</div>
+<span class="open_bar"><img height="30px" class="arrow" src="https://img.icons8.com/ios-filled/50/000000/expand-arrow.png"></span>
+<header>
+    <span id="game" data-text="GAME">GAME</span><spans id="light">LIGHT</spans></header>
+<div id="head_bar">
+    <a href="#" class="accueil">Accueil</a>
+    <a href="#" class="head_bar games">Jeux</a>
+    <!--<a href="#" class="head_bar news">News</a>-->
+    <a href="RATES/all%20rates/all_rates.html" class="head_bar rates">Notes</a>
+</div>
+<div id="curtain">
+    <div class="curtain-games">
+        <div class="CG-title all_game"></div>
+        <div class="CG-title ps4"></div>
+        <div class="CG-title xbox"></div>
+        <div class="CG-title switch"></div>
+        <div class="CG-title pc"></div>
+    </div>
+    <div class="curtain-news">
+        <span class="all_news">Voir toutes les news</span>
+    </div>
+    <div class="curtain-notes">
+        <a href="RATES/all%20rates/all_rates.html"><div class="CN-title all_rates">TOUTES LES NOTES</div></a>
+        <a><div class="CN-title worst_rates">LES PIRES NOTES</div></a>
+        <a href="RATES/best%20rates/best_rates.html"><div class="CN-title best_rates">LES MEILLEURES NOTES</div></a>
+    </div>
+</div>
+<div id="intro">
+    <h1 class="test">Bienvenue sur Game Light !</h1>
+    <p>Site répertoriant les dernières actualités sur le monde des jeux vidéo ainsi que les sorties à venir sur les différentes plateformes !</p>
+    <p>N'hésitez pas à consulter également nos notes sur vos jeux préférés ainsi que notre répertoire regroupant un max d'info !</p>
+</div>
+
+<div class="body">
+    <!-- COUNTDOWN-->
+    <div class="title line">
+        <h2 class="h2">PROCHAINES SORTIES JEUX VIDEO</h2>
+    </div>
+    <div class="pic line">
+        <div class="bloc b1">
+            <div class="consoles">
+                <img src="pics/ps.png" height="30px" class="ps1" title="Disponible sur Playstation">
+                <img src="pics/xbox.png" height="30px" class="xbox2" title="Indisponible sur X-Box">
+                <img src="pics/pc.png" height="30px" class="pc2" title="Indisponible sur PC">
+                <img src="pics/switch.png" height="30px" class="switch2" title="Indisponible sur Switch">
+            </div>
+            <div class="case c1">
+            </div>
+            <span>Yakuza 7</span>
+            <span class="count ct1" id="ct1"></span>
+        </div>
+        <div class="bloc b2">
+            <div class="consoles">
+                <img src="pics/ps.png" height="30px" class="ps1" title="Disponible sur Playstation">
+                <img src="pics/xbox.png" height="30px" class="xbox2" title="Indisponible sur X-Box">
+                <img src="pics/pc.png" height="30px" class="pc2" title="Indisponible sur PC">
+                <img src="pics/switch.png" height="30px" class="switch2" title="Indisponible sur Switch">
+            </div>
+            <a href="GAMES/dbz_kakarot.html"><div class="case c2">
+            </div></a>
+            <span>Dragon Ball Z : Kakarot</span>
+            <span class="count ct2" id="ct2"></span>
+        </div>
+        <div class="bloc b3">
+            <div class="consoles">
+                <img src="pics/ps.png" height="30px" class="ps1" title="Disponible sur Playstation">
+                <img src="pics/xbox.png" height="30px" class="xbox1" title="Disponible sur X-Box">
+                <img src="pics/pc.png" height="30px" class="pc1" title="Disponible sur PC">
+                <img src="pics/switch.png" height="30px" class="switch2" title="Indisponible sur Switch">
+            </div>
+            <div class="case c3"></div>
+            <span class="title2line">Megaman Zero ZX<br>Legacy Collection</span>
+                <span class="count ct3" id="ct3"></span>
+        </div>
+        <div class="bloc b4">
+            <div class="consoles">
+                <img src="pics/ps.png" height="30px" class="ps1" title="Disponible sur Playstation">
+                <img src="pics/xbox.png" height="30px" class="xbox1" title="Disponible sur X-Box">
+                <img src="pics/pc.png" height="30px" class="pc1" title="Disponible sur PC">
+                <img src="pics/switch.png" height="30px" class="switch2" title="Indisponible sur Switch">
+            </div>
+            <div class="case c4">
+            </div>
+            <span>Moons of Madness</span>
+            <span class="count ct4" id="ct4"></span>
+        </div>
+        <div class="bloc b5">
+            <div class="consoles">
+                <img src="pics/ps.png" height="30px" class="ps1" title="Disponible sur Playstation">
+                <img src="pics/xbox.png" height="30px" class="xbox2" title="Indisponible sur X-Box">
+                <img src="pics/pc.png" height="30px" class="pc2" title="Indisponible sur PC">
+                <img src="pics/switch.png" height="30px" class="switch1" title="Disponible sur Switch">
+            </div>
+            <div class="case c5">
+            </div>
+            <span class="title2line">Final Fantasy Crystal<br>Chronicles <span id="forp"> (Remastered Edition)</span></span>
+            <span class="count ct5" id="ct5"></span>
+        </div>
+    </div>
+
+
+    <!-- LAST NEWS-->
+ <!--   <div class="title line">
+        <h2>DERNIERES ACTUALITES GAMING</h2>
+    </div>
+    <div class="pic line">
+        <div class="bloc b1 new2line">
+            <div class="case c6">
+            </div>
+            <span class="new n1">Deux extensions Pokémon annoncées !</span>
+        </div>
+        <div class="bloc b2 new2line">
+            <div class="case c7">
+            </div>
+            <span class="new n2">Un remake de Dongeon Mystère en vue !</span>
+        </div>
+        <div class="bloc b3">
+            <div class="case c8">
+            </div>
+            <span class="new n3">Nouvelles infos sur la PS5 !</span>
+        </div>
+        <div class="bloc b4 new2line">
+            <div class="case c9">
+            </div>
+            <span class="new n4">Oddworld débarque sur Switch !</span>
+        </div>
+        <div class="bloc b5">
+            <div class="case c10"><span class="didUknow">Le saviez-vous ?</span>
+            </div>
+            <span class="new n5">Résident Evil 4 a 15 ans !</span>
+        </div>
+  </div> -->
+    <!-- LAST GAMES-->
+    <div class="title line">
+        <h2 class="h2">JEUX VIDEO LES PLUS RECENTS</h2>
+    </div>
+    <div class="pic line">
+        <div class="bloc b1">
+            <div class="consoles">
+                <img src="pics/ps.png" height="30px" class="ps1" title="Disponible sur Playstation">
+                <img src="pics/xbox.png" height="30px" class="xbox1" title="Disponible sur X-Box">
+                <img src="pics/pc.png" height="30px" class="pc1" title="Disponible sur PC">
+                <img src="pics/switch.png" height="30px" class="switch1" title="Disponible sur Switch">
+            </div>
+            <div class="case c11">
+            </div>
+            <span>AO Tennis 2</span>
+            <span class="date">9 Janvier 2020</span>
+        </div>
+        <div class="bloc b2">
+            <div class="consoles">
+                <img src="pics/ps.png" height="30px" class="ps1" title="Disponible sur Playstation">
+                <img src="pics/xbox.png" height="30px" class="xbox2" title="Indisponible sur X-Box">
+                <img src="pics/pc.png" height="30px" class="pc1" title="Disponible sur PC">
+                <img src="pics/switch.png" height="30px" class="switch2" title="Indisponible sur Switch">
+            </div>
+            <div class="case c12">
+            </div>
+            <span>Wattam</span>
+            <span class="date">17 Décembre 2019</span>
+        </div>
+        <div class="bloc b3">
+            <div class="consoles">
+                <img src="pics/ps.png" height="30px" class="ps1" title="Disponible sur Playstation">
+                <img src="pics/xbox.png" height="30px" class="xbox2" title="Indisponible sur X-Box">
+                <img src="pics/pc.png" height="30px" class="pc1" title="Disponible sur PC">
+                <img src="pics/switch.png" height="30px" class="switch2" title="Indisponible sur Switch">
+
+            </div>
+            <div class="case c13">
+            </div>
+            <span>Detroit : Become Human</span>
+            <span class="date">12 Décembre 2019</span>
+        </div>
+        <div class="bloc b4">
+            <div class="consoles">
+                <img src="pics/ps.png" height="30px" class="ps1" title="Disponible sur Playstation">
+                <img src="pics/xbox.png" height="30px" class="xbox2" title="Indisponible sur X-Box">
+                <img src="pics/pc.png" height="30px" class="pc2" title="Indisponible sur PC">
+                <img src="pics/switch.png" height="30px" class="switch1" title="Disponible sur Switch">
+            </div>
+            <div class="case c14">
+            </div>
+            <span>Dragon Quest Builder 2</span>
+            <span class="date">12 Décembre 2019</span>
+        </div>
+        <div class="bloc b5">
+            <div class="consoles">
+                <img src="pics/ps.png" height="30px" class="ps2" title="Indisponible sur Playstation">
+                <img src="pics/xbox.png" height="30px" class="xbox2" title="Indisponible sur X-Box">
+                <img src="pics/pc.png" height="30px" class="pc1" title="Disponible sur PC">
+                <img src="pics/switch.png" height="30px" class="switch2" title="Indisponible sur Switch">
+            </div>
+            <div class="case c15">
+            </div>
+            <span>Transport Fever 2</span>
+            <span class="date">11 Décembre 2019</span>
+        </div>
+    </div>
+
+    <!-- LAST NOTES-->
+    <div class="title line">
+        <h2>DERNIERS NOTES ATTRIBUEES</h2>
+    </div>
+    <div class="pic line">
+        <div class="bloc b1">
+            <div class="case c16">
+            </div>
+            <span>NOTE1</span>
+        </div>
+        <div class="bloc b2">
+            <div class="case c17">
+            </div>
+            <span>NOTE2</span>
+        </div>
+        <div class="bloc b3">
+            <div class="case c18">
+            </div>
+            <span>NOTE3</span>
+        </div>
+        <div class="bloc b4">
+            <div class="case c19">
+            </div>
+            <span>NOTE4</span>
+        </div>
+        <div class="bloc b5">
+            <div class="case C20">
+            </div>
+            <span>NOTE5</span>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div id="footer_main">
+        <div class="sitename_footer">Game<span id="light_footer">Light</span></div>
+        <div class="footerClasses">
+            <a href="#"><li class="footerClass">Contact</li></a>
+            <a href="#"><li class="footerClass">Equipe</li></a>
+            <a href="#"><li class="footerClass">Informations Légales</li></a>
+            <a href="#"><li class="footerClass">Conditions d'utilisation</li></a>
+            <a href="#"><li class="footerClass">Politique de confidentialité</li></a>
+        </div>
+    </div>
+    <span class="copy">Game Light, édité par Dylan Leporcq, developpeur web passionné de jeux vidéo. Copyright &copy; 2020 Dylan Leporcq. Tous droits réservés.</span>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="script.js"></script>
+<script src="countdowns.js"></script>
+</body>
+</html>

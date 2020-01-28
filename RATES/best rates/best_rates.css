@@ -1,0 +1,101 @@
+*{
+    color: white;
+    font-family: "Century Gothic";
+}
+.rates{
+    background: #38c976;
+    color: white;
+    font-weight: bold;
+}
+
+.accueil {
+    background: #1b4060;
+    color: white;
+}
+#intro {
+    background: rgba(27, 64, 96, 0.86);
+}
+
+#big_title {
+    text-align: center;
+    font-size: 50pt;
+    height: 152px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title_cat {
+    color: black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#top_buttons{
+    display: flex;
+    text-align: center;
+}
+.top_button{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    border: 2px solid white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.best {
+    background: white;
+    color: black;
+}
+
+
+#body {
+    background: rgba(39, 39, 39, 0.83);
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    font-size: 30pt;
+}
+
+td {
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.critere{
+    background: #2b2b2b;
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+.game-detail {
+    background: #eaeaea;
+    color: #3f3f3f;
+}
+.input {
+    border: 0;
+    border-radius: 10px;
+    font-size: 10pt;
+    cursor: pointer;
+    height: 70px;
+    text-align: center;
+    font-weight: bold;
+}
+.i1 {
+    background: #2b6046;
+}
+.i2 {
+    background: #6d0f0e;
+}

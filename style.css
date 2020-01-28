@@ -1,0 +1,287 @@
+/* Global font */
+* {
+    font-family: "Century Gothic";
+}
+body{
+    margin: 0;
+    background: rgba(21, 21, 21, 0.28);
+}
+header{
+    background-image: url("pics/wpp.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 80pt;
+    color: white;
+}
+/* Word 'Game' of the header*/
+#game{
+    text-shadow: #000000 6px 6px 2px;
+}
+/* Word 'Light' of the header*/
+#light{
+    text-shadow: white 1px 1px 10px;
+    margin-left: 80px;
+    color: white;
+    font-weight: lighter;
+    font-family: "Century Gothic";
+}
+
+footer{
+    background-image: url("pics/wpp.jpg");
+    background-position: bottom 250px right 20px;
+    background-size: cover;
+    height: 5%;
+    align-items: center;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#footer_main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.sitename_footer{
+    font-size: 30pt;
+    margin-left: 20px;
+    margin-right: 330px;
+    border: 1px solid white;
+    align-self: center;
+    padding: 5px;
+    background: rgba(0, 0, 0, 0.6);
+}
+.footerClasses {
+    margin-left: 330px;
+}
+.footerClass {
+    list-style-type: none;
+    font-size: 16pt;
+    color: white;
+}
+#light_footer{
+    text-shadow: white 1px 1px 2px;
+    font-weight: lighter;
+    font-family: "Century Gothic";
+}
+.copy {
+    font-size: 10pt;
+    margin-left: 5%;
+    padding-top-top: 50px;
+}
+/* Intro bar style */
+#intro{
+    text-align: center;
+    margin: 0;
+    padding-top: 2px;
+    padding-bottom: 20px;
+    height: 130px;
+    color: white;
+    line-height: 15px;
+}
+/* Title of the Intro bar */
+h1 {
+    padding: 10px;
+}
+/* Nav bar, Accueil, Games, News and Notes*/
+#head_bar{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+/* Property of nav bar, each category */
+.head_bar, .accueil{
+    text-align: center;
+    flex: 1;
+    padding: 3px;
+    cursor: pointer;
+    font-size: 16pt;
+}
+/* Only Accueil, cause we're on the Accueil nav*/
+.accueil {
+    background: #1b4060;
+}
+/* Game bar */
+.games{
+    background: #6d0f0e; /*b6706e*/
+    color: white;
+}
+/* News bar */
+.news{
+    background: #6c3f77; /*daaad5*/
+    color: white;
+}
+/* Notes bar */
+.rates{
+    background: #1e7f5f; /*8eb4e3*/
+    color: white;
+}
+/* Background of the page, front of 'PS wallpaper' */
+.body{
+    background: rgba(0, 0, 0, 0);
+    margin : 20px;
+    text-align: center;
+}
+/* Menu appearing in mouse over */
+#curtain{
+    text-align: center;
+    height: 152px;
+    display: none;
+    color: white;
+}
+/* All titles of the game curtain */
+.CG-title {
+    border: 2px solid white;
+    margin-top: 10px;
+    height: 110px;
+    width: 190px;
+    cursor: pointer;
+}
+/* All titles of the notes curtain */
+.CN-title {
+    height: 110px;
+    width: 300px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+/* All titles of the contact curtain */
+.CC-title{
+    cursor: pointer;
+}
+/* Menu appearing in the Game nav */
+.curtain-games{
+    justify-content: space-around;
+    align-items: center;
+}
+/* Menu appearing in the News nav */
+.curtain-news{
+    text-align: center;
+    font-size: 40pt;
+    padding-top: 30px;
+    cursor: pointer;
+}
+/* Menu appearing in the Notes nav */
+.curtain-notes {
+    padding-top: 10px;
+    justify-content: space-around;
+}
+/* All curtain hidden, appearing in mouse over */
+.curtain-games, .curtain-news, .curtain-notes {
+    display: none;
+}
+
+.CG-title {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ps4 {
+    background-image: url("pics/wppPS4.png");
+}
+.xbox {
+    background-image: url("pics/wppXBOX.png");
+}
+.switch {
+    background-image: url("pics/wppSWITCH.png");
+}
+.pc{
+    background-image: url("pics/wppPC.png");
+}
+.all_game {
+    background-image: url("pics/tousgame.png");
+}
+
+.user_bar {
+    background: rgba(0, 0, 0, 0.48);
+    position: fixed;
+    width: 100%;
+    font-size: 15pt;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 10;
+    visibility: visible;
+}
+
+.user_option{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.search_bar{
+    font-size: 14pt;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding-left: 8px;
+    margin-left: 8px;
+    width: 300px
+}
+
+.login {
+    margin-right: 60px;
+    padding: 5px;
+    border-radius: 10px;
+    background: whitesmoke;
+    color: #686868;
+    cursor: pointer;
+}
+.subscribe {
+    margin-right: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    background: whitesmoke;
+    color: #686868;
+    cursor: pointer;
+}
+
+
+.login:hover, .subscribe:hover{
+    color: black;
+}
+
+.open_bar {
+    position: fixed;
+    color: white;
+    right: 0;
+    margin-right: 20px;
+    visibility: visible;
+    cursor: pointer;
+    z-index: 10;
+    margin-top: 60px;
+}
+
+.loupe {
+    filter: invert(1);
+    margin-top: 5px;
+}
+
+.arrow {
+    filter: invert(1);
+    transform: rotate(180deg);
+    z-index: 10;
+}
+
+@keyframes slideUp {
+    0% {
+        margin-top: 60px;
+    }
+    100% {
+        margin-top: 0;
+    }
+}
+@keyframes slideDown {
+    0% {
+        margin-top: 0;
+    }
+    100% {
+        margin-top: 60px;
+    }
+}
+
